@@ -16,7 +16,7 @@ html {
 
 body {
     /* coloca uma imagem de fundo */
-  background-image: url("img/background2.jpg");
+  background-image: url("img/background1.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -90,13 +90,6 @@ h1 {
     border: 2px solid #ffffff;
 }
 
-.voce {
-    /* troca a cor de fundo */
-    background-color: #ffd319;
-    /* espaçamento interno */
-    padding: 20px;
-    border-radius: 50%;
-}
 
 
 /* 

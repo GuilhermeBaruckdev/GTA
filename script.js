@@ -51,12 +51,10 @@ let personagem = document.querySelector(".personagem")
 // () = Capsula teletransportadora
 
 function escolherPersonagem(nomePersonagem, imagemPersonagem, cor){
-
-    nome.innerHTML = nomePersonagem
+    nome.textContent = nomePersonagem
     personagem.src = imagemPersonagem
+    personagem.alt = `Personagem ${nomePersonagem}`
     nome.style.color = cor
-    // innerHTML = colocar algo dentro do HTML
+    document.title = `${nomePersonagem} | Não é só um Jogo`
     // src = colocar algo dentro do src da imagem
 }
-
-
